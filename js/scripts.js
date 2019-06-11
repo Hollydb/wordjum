@@ -8,7 +8,7 @@ $(document).ready(function() {
     var vowels = ['a', 'e', 'i', 'o', 'u']
           // variable for whatever value is put into the input id (in the form on html page) and then it is split into individual elements. quotes mean how many spaces inbetween characters
     var userInput = ($("#vowel").val()).split("");
-          // console log is basically an alert that doesnt disrupt the page from loading
+          // console log is basically an alert that doesnt disrupt the page from loading. It is akso a code checker for returned or invaild characters/key strokes
     console.log(userInput)
           // for loop, variable name is index. starting at 0 which relates to our var vowel "a". userInput.length measure how long the input is that the user gives us. index += 1 bumps the increments by 1 everytime we complete a loop
     for (var index = 0; index < userInput.length; index += 1) {
